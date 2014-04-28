@@ -37,6 +37,14 @@
                 android:targetClass="com.android.settings.applications.AppOpsSummary" />
         </Preference>
 	
+        <!-- App sidebar -->
+        <Preference
+            android:key="app_sidebar"
+            android:fragment="com.fusion.reactor.settings.AppSidebar"
+            android:title="@string/app_sidebar_title"
+            android:layout="@layout/preference_fusion_appbar" 
+            />
+	
         <!-- Battery LED -->
         <Preference
 	    android:key="charging_light"
