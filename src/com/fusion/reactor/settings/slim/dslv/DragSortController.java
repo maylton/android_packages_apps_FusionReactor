@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.benzo.settings.slim.dslv;
+package com.fusion.reactor.settings.slim.dslv;
 
 import android.graphics.Point;
 import android.view.GestureDetector;
