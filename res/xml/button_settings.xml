@@ -19,4 +19,9 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/button_settings_title" >
 
+    <Preference
+        android:key="power_menu"
+        android:title="@string/power_menu_title"
+        android:fragment="com.fusion.reactor.settings.PowerMenuActions" />
+
 </PreferenceScreen>

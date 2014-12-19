@@ -16,7 +16,6 @@
 -->
 <resources>
 
-
     <!-- Quick Pulldown -->
     <string-array name="quick_pulldown_entries" translatable="false">
         <item>@string/quick_pulldown_off</item>
@@ -31,4 +30,15 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+
+    <!-- Power Menu -->
+    <string-array name="power_menu_actions_array" translatable="false">
+        <item>power</item>
+        <item>reboot</item>
+        <item>screenshot</item>
+        <item>airplane</item>
+        <item>users</item>
+        <item>bugreport</item>
+    </string-array>
+
 </resources>
