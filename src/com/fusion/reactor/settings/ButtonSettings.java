@@ -34,6 +34,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
 public class ButtonSettings extends SettingsPreferenceFragment {
+    private static final String TAG = ButtonSettings.class.getSimpleName();
 
     @Override
     public void onCreate(Bundle icicle) {
