@@ -42,7 +42,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 public class NavbarSettings extends SettingsPreferenceFragment implements
-          OnPreferenceChangeListener {
+         OnPreferenceChangeListener {
 
     private static final String PREF_BATT_BAR = "battery_bar_list";
     private static final String PREF_BATT_BAR_STYLE = "battery_bar_style";

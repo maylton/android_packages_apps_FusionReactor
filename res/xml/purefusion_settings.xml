@@ -133,4 +133,12 @@
             android:layout="@layout/preference_fusion_developer"
             />
 
+        <!-- Weather -->
+        <Preference
+            android:key="lockscreen_weather"
+            android:title="@string/lockscreen_weather_title"
+            android:fragment="com.fusion.reactor.settings.LockScreenWeatherSettings"
+            android:layout="@layout/preference_fusion_weather"
+            />
+
 </PreferenceScreen>
