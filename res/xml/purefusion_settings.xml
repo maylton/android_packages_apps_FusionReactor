@@ -26,6 +26,14 @@
             android:fragment="com.fusion.reactor.settings.ButtonSettings"
 	    android:layout="@layout/preference_fusion_buttons"
 	    />
+	    
+	<!-- Gesture anywhere -->
+        <Preference
+            android:key="gesture_anywhere"
+            android:fragment="com.fusion.reactor.settings.gestureanywhere.GestureAnywhereSettings"
+            android:title="@string/gesture_anywhere_title"
+            android:layout="@layout/preference_fusion_gestureanywhere"
+            />
 
         <!-- Navigation Bar -->
         <Preference
