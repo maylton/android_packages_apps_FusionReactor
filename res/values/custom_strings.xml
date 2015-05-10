@@ -58,4 +58,8 @@
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
     <string name="power_menu_torch">Flashlight</string>
 
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
+    <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
+
 </resources>
