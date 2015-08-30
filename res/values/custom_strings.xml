@@ -18,7 +18,6 @@
 
     <!-- General -->
     <string name="ok">Okay</string>
-    <string name="reset">Reset</string>
     <string name="default_string">Default</string>
     <string name="add">Add</string>
     <string name="enabled">Enabled</string>
@@ -332,8 +331,8 @@
     <string name="statusbar_tuner_summary">Battery options and statusbar icons to disable</string>
     <string name="navbar_tuner_title">Edit navigation bar</string>
     <string name="navbar_tuner_summary">Edit the navigation bar layout and buttons</string>
-    <string name="lockscreen_shortcuts_title">Lockscreen shortcuts</string>
-    <string name="lockscreen_shortcuts_summary">Manage lockscreen bottom shortcuts</string>
+    <string name="lockscreen_shortcuts_title">Bottom shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Manage lockscreen shortcuts down at the bottom</string>
     <string name="power_notifications_title">Power notifications</string>
     <string name="power_notifications_summary">Advanced notifications control on long press</string>
     <string name="vol_dnd_category_title">Do not disturb mode</string>
@@ -381,13 +380,14 @@
 
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_shortcuts_category">Shortcuts</string>
-    <string name="lockscreen_shortcuts_title">Lockscreen shortcuts midscreen</string>
-    <string name="lockscreen_shortcuts_summary">Change the shortcuts that are about halfway up on the lockscreen</string>
-    <string name="lockscreen_shorcuts_longpress_title">Shortcuts longpress</string>
-    <string name="lockscreen_shorcuts_longpress_summary">Open custom lock screen shortcuts on longpress</string>
+    <string name="lockscreen_shortcuts_slim_title">Upper Shortcuts</string>
+    <string name="lockscreen_shortcuts_slim_summary">Change the shortcuts right under the lockscreen clock</string>
+    <string name="lockscreen_shorcuts_launch_type_title">Shortcut click type</string>
+    <string name="lockscreen_shortcuts_single_tap">Click</string>
+    <string name="lockscreen_shortcuts_double_tap">Double tap</string>
+    <string name="lockscreen_shortcuts_longpress">Longpress</string>
 
     <!-- Slim DSLV -->
-    <string name="shortcut_action_none">None</string>
     <string name="shortcut_action_longpress">Longpress:</string>
     <string name="shortcut_action_select_action_longpress">Choose longpress action:</string>
     <string name="shortcut_action_select_action">Choose action:</string>
@@ -487,27 +487,6 @@
     <string name="shortcut_action_media_play_pause">Music - play/pause</string>
     <string name="shortcut_action_media_previous">Music - previous track</string>
     <string name="shortcut_action_wake_device">Wake up device</string>
-
-    <string name="shortcut_action_longpress">Longpress:</string>
-    <string name="shortcut_action_select_action_longpress">Choose longpress action:</string>
-    <string name="shortcut_action_select_action">Choose action:</string>
-    <string name="shortcut_action_select_action_newaction">Choose new action:</string>
-    <string name="shortcut_action_reset">Reset</string>
-    <string name="shortcut_action_add">Add</string>
-    <string name="shortcut_action_reset_message">Reset all entries to default?</string>
-    <string name="shortcut_action_max">Maximum entries size has been reached</string>
-    <string name="shortcut_action_warning">Warning</string>
-    <string name="shortcut_action_warning_message">It is not possible to delete last entry</string>
-    <string name="shortcut_action_disable_message">Disabled\nAdd an entry to enable this feature</string>
-    <string name="shortcut_image_not_valid">The chosen app did not return a valid icon or does not support image cropping. Use another app.</string>
-    <string name="shortcut_duplicate_entry">The chosen action cannot be added twice</string>
-    <string name="shortcut_action_help_shortcut">shortcut</string>
-    <string name="shortcut_action_help_button">button</string>
-    <string name="shortcut_action_help_app">app</string>
-    <string name="shortcut_action_help_icon">, while selecting the icon will bring up customization options</string>
-    <string name="shortcut_action_help_main">To add a %1$s, select the Add icon. Once a %1$s is added, selecting the row will change the target%2$s\n\nTo remove a %1$s, swipe the row horizontally left or right. Re-order a %1$s in the list by vertically dragging the anchor on the left.\n\nTo clear or reset to defaults, select the reset option.</string>
-    <string name="shortcut_action_help_delete_last_entry">Removing every %1$s in the list will disable the feature entirely.</string>
-    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Removing every %1$s in the list will disable the second pie layer entirely.</string>
     <string name="shortcut_picker_choose_longpress_action">Choose longpress action:</string>
     <string name="shortcut_picker_choose_new_action">Choose new action:</string>
     <string name="shortcut_picker_reassign_action">Reassign action:</string>
