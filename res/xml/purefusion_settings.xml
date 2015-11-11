@@ -47,7 +47,7 @@
         <PreferenceScreen
             android:id="@+id/quick_settings"
             android:title="@string/quicksettings_title"
-            android:fragment="com.benzo.settings.QuickSettings"
+            android:fragment="com.fusion.reactor.settings.QuickSettings"
             android:layout="@layout/preference_fusion_quicksettings"
             />
 

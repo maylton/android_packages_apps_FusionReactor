@@ -14,16 +14,21 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/quicksettings_title" >
+<resources>
 
-        <ListPreference
-            android:key="quick_pulldown"
-            android:title="@string/quick_pulldown_title"
-            android:entries="@array/quick_pulldown_entries"
-            android:entryValues="@array/quick_pulldown_values"
-            android:persistent="false" />
 
-</PreferenceScreen>
+    <!-- Quick Pulldown -->
+    <string-array name="quick_pulldown_entries" translatable="false">
+        <item>@string/quick_pulldown_off</item>
+        <item>@string/quick_pulldown_right</item>
+        <item>@string/quick_pulldown_left</item>
+        <item>@string/quick_pulldown_always</item>
+    </string-array>
+
+    <string-array name="quick_pulldown_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
