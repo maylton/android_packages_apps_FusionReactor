@@ -38,4 +38,10 @@
         android:entryValues="@array/volbtn_cursor_control_values"
         android:persistent="false" />
 
+    <com.fusion.reactor.settings.preference.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:title="@string/volume_rocker_music_controls_title"
+        android:summary="@string/volume_rocker_music_controls_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
