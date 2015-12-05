@@ -70,7 +70,7 @@
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
     <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
-
+    
     <!-- Recents panel settings -->
     <string name="clearall_recents_category">Clear all button</string>
     <string name="show_clear_all_recents_button_title">Enable clear all button</string>
@@ -300,6 +300,9 @@
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    
+    <!-- Volume keys -->
+    <string name="vol_buttons_category_title">Volume buttons</string>
 
     <!-- Volume key cursor control -->
     <string name="hardware_keys_volume_keys_title">Volume buttons</string>
@@ -312,6 +315,10 @@
     <string name="volume_rocker_music_controls_title">Playback control</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
+    <!-- Volume rocker music control -->	
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+    
     <!-- Disable OS on lockscreen -->
     <string name="block_on_secure_keyguard_title">Disable quick settings</string>
     <string name="block_on_secure_keyguard_summary">Disables quick settings on secure lockscreen</string>
