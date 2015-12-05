@@ -65,6 +65,7 @@
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
     <string name="power_menu_torch">Flashlight</string>
+    <string name="power_menu_screenrecord_title">Screenrecord</string>
 
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
