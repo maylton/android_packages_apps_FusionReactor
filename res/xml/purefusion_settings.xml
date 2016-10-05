@@ -60,6 +60,14 @@
             android:title="@string/gesture_anywhere_title"
             android:layout="@layout/preference_fusion_gestureanywhere"
             />
+	    
+       <!-- Lockscreen -->
+       <Preference
+            android:key="lockscreen_settings"
+            android:title="@string/lockscreen_settings_fusion_title" 
+            android:fragment="com.fusion.reactor.settings.LockScreenSettings"
+            android:layout="@layout/preference_fusion_lockscreen"
+            />
 
         <!-- Navigation Bar -->
         <Preference
@@ -67,6 +75,14 @@
             android:title="@string/navbar_settings_title" 
             android:fragment="com.fusion.reactor.settings.NavbarSettings"
             android:layout="@layout/preference_fusion_navbar"
+            />
+	    
+       <!-- Notifications -->
+       <Preference
+            android:key="fusion_notifications_category"
+            android:fragment="com.fusion.reactor.settings.Notifications"
+            android:title="@string/notifications_settings_fusion_title" 
+            android:layout="@layout/preference_fusion_notifications"
             />
 
         <!-- Recents -->
@@ -78,7 +94,7 @@
             />
 
         <!-- Quick Settings -->
-        <PreferenceScreen
+        <Preference
             android:id="@+id/quick_settings"
             android:title="@string/quicksettings_title"
             android:fragment="com.fusion.reactor.settings.QuickSettings"
