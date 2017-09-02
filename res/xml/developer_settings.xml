@@ -20,4 +20,10 @@
     android:title="@string/developer_settings_category" 
     android:layout="@layout/tab">
 
+    <com.fusion.reactor.preference.SystemSettingSwitchPreference
+        android:key="mtp_dirty_hack"
+        android:title="@string/enable_mtp_dirtyhack_title"
+        android:summary="@string/enable_mtp_dirtyhack_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>

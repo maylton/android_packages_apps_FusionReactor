@@ -62,6 +62,10 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+    
+    <!-- MTP Dirty Hack -->
+    <string name="enable_mtp_dirtyhack_title">MTP instead of Charging</string>
+    <string name="enable_mtp_dirtyhack_summary">Enable MTP by default for USB connections</string>
 
 </resources>
 
