@@ -22,4 +22,10 @@
         android:summary="@string/swap_volume_buttons_summary"
         android:defaultValue="true" />
 
+    <com.fusion.reactor.preference.SystemSettingSwitchPreference
+        android:key="volume_keys_control_media_stream"
+        android:title="@string/volume_keys_control_media_stream_title"
+        android:summary="@string/volume_keys_control_media_stream_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
