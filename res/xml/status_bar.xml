@@ -48,5 +48,11 @@
         android:fragment="com.fusion.reactor.Traffic"
         android:icon="@drawable/ic_arrow"
         android:title="@string/traffic_title" />
+
+    <Preference
+        android:key="status_bar_gestures"
+        android:fragment="com.fusion.reactor.StatusBarGestures"
+        android:icon="@drawable/ic_arrow"
+        android:title="@string/status_bar_gestures_title" />
  
 </PreferenceScreen>

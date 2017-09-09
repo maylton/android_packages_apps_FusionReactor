@@ -28,6 +28,7 @@
     <string name="status_bar_icons_title">Statusbar Icons</string>
     <string name="notification_panel_title">Notification panel</string>
     <string name="quick_settings_title">Quick settings</string>
+    <string name="status_bar_gestures_title">Statusbar Gestures</string>
 
     <!-- Notifications -->
     <string name="notifications_category">Notifications</string>
@@ -207,5 +208,9 @@
 
     <!-- Lockscreen Bottom Shortcuts -->
     <string name="lockscreen_tuner_title">Lockscreen Bottom Shortcuts</string>
+
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Status bar</string>
+    <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
 
 </resources>
