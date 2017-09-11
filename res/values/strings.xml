@@ -28,6 +28,7 @@
     <string name="security_category">Security</string>
     <string name="aosp_recents_category">AOSP recents</string>
     <string name="hardware_category">Hardware</string>
+    <string name="light_category">Lights</string>
     <string name="dlg_ok">OK</string>
     <string name="attention">Attention</string>
     <string name="loading">Loading\u2026</string>
@@ -96,6 +97,17 @@
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
     <string name="recents_show_membar_title">Memory bar</string>
     <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_enable">Battery light</string>
+    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
+    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <string name="battery_light_cat">Battery light color when charging</string>
+    <string name="battery_light_low_color">Low battery</string>
+    <string name="battery_light_medium_color">Medium battery</string>
+    <string name="battery_light_full_color">Almost full battery</string>
+    <string name="battery_light_reallyfull_color">Full (100) battery</string>
 
 </resources>
 
