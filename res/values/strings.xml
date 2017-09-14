@@ -26,6 +26,7 @@
     <string name="general_category">General</string>
     <string name="gestures_category">Gestures</string>
     <string name="security_category">Security</string>
+    <string name="aosp_recents_category">AOSP recents</string>
     <string name="hardware_category">Hardware</string>
     <string name="dlg_ok">OK</string>
     <string name="attention">Attention</string>
@@ -48,6 +49,9 @@
     <string name="developer_settings_category">Developer Settings</string>
     <string name="build_tweaks_summary_title">Where The Magic Begins</string>
 
+    <!-- Recents UI -->
+    <string name="recents_ui_title">Recents UI</string>
+
     <!-- App Ops -->
     <string name="app_ops_category">App Ops</string>
 
@@ -69,6 +73,17 @@
     <!-- MTP Dirty Hack -->
     <string name="enable_mtp_dirtyhack_title">MTP instead of Charging</string>
     <string name="enable_mtp_dirtyhack_summary">Enable MTP by default for USB connections</string>
+
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Clear all button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+    <string name="recents_clear_all_location_title">Clear all location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 
 </resources>
 
