@@ -49,6 +49,7 @@
     <string name="lockscreen_category">Lockscreen</string>
     <string name="navigation_category">Navigation</string>
     <string name="developer_settings_category">Developer Settings</string>
+    <string name="buttons_settings_category">Buttons</string>
     <string name="build_tweaks_summary_title">Where The Magic Begins</string>
 
     <!-- Recents UI -->

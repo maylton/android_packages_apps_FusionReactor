@@ -181,9 +181,10 @@ public class PartsFragment extends SettingsPreferenceFragment {
             frags[1] = new NotificationsPanel();
             frags[2] = new Navigation();
             frags[3] = new Recents();
-	    frags[4] = new Lockscreen();
+	        frags[4] = new Lockscreen();
             frags[5] = new System();
             frags[6] = new DeveloperSettings();
+            frags[7] = new Buttons();
         }
 
         @Override
@@ -211,7 +212,8 @@ public class PartsFragment extends SettingsPreferenceFragment {
                     getString(R.string.recents_category),
                     getString(R.string.lockscreen_category),
                     getString(R.string.system_category),
-                    getString(R.string.developer_settings_category)};
+                    getString(R.string.developer_settings_category),
+                    getString(R.string.buttons_settings_category)};
         return titleString;
     }
 
