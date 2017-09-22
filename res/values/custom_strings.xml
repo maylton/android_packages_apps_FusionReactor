@@ -34,6 +34,7 @@
     <string name="statusbar_settings_title">Statusbar</string>
     <string name="hardware_keys_power_key_title">Power button</string>
     <string name="quicksettings_title">Quick Settings</string>
+    <string name="keyboard_ime_title">Keyboard and IME</string>
     <string name="lockscreen_settings_fusion_title">Lockscreen</string>
     <string name="notifications_settings_fusion_title">Notifications</string>
     <string name="developer_settings_title">Developer Settings</string>
