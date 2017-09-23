@@ -148,6 +148,10 @@
     <string name="power_notification_controls_title">Power notification controls</string>
     <string name="power_notification_controls_summary">Select importance level for notifications</string>
 
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Power menu when locked</string>
+    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
+
 </resources>
 
 
