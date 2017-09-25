@@ -41,4 +41,9 @@
         android:icon="@drawable/ic_arrow"
         android:title="@string/general_settings_title" />
 
+     <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications"
+        android:fragment="com.fusion.reactor.HeadsUpSettings" />
+
 </PreferenceScreen>
