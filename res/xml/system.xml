@@ -21,5 +21,10 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+         <Preference
+            android:key="app_ops"
+            android:fragment="com.android.settings.applications.AppOpsSummary"
+            android:icon="@drawable/ic_settings_appops"
+            android:title="@string/app_ops_category" />
 
 </PreferenceScreen>
