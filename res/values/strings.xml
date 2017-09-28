@@ -52,6 +52,12 @@
     <!-- Recents UI -->
     <string name="recents_ui_title">Recents UI</string>
 
+    <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Lockscreen UI</string>
+
+    <!-- Navigation -->
+    <string name="navigationbar_settings_title">Navigation bar</string>
+
     <!-- App Ops -->
     <string name="app_ops_category">App Ops</string>
 
