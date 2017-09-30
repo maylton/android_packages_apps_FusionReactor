@@ -36,4 +36,10 @@
         android:icon="@drawable/ic_arrow"
         android:title="@string/power_menu_title" />
 
+    <Preference
+        android:key="volume_rocker"
+        android:fragment="com.fusion.reactor.VolumeRocker"
+        android:icon="@drawable/ic_arrow"
+        android:title="@string/volume_rocker_title" />
+
 </PreferenceScreen>

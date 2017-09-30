@@ -39,6 +39,7 @@
     <string name="navigation_bar_title">Navigation Bar</string>
     <string name="hardware_keys_title">Hardware Keys</string>
     <string name="power_menu_title">Power Button</string>
+    <string name="volume_rocker_title">Volume Rocker</string>
 
     <!-- Navigation -->
     <string name="navigationbar_settings_title">Navigation bar</string>
@@ -220,5 +221,9 @@
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+
+    <!-- Volume button orientation based on current rotation -->
+    <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
+    <string name="swap_volume_buttons_summary">Adjust the rocker orientation based on current rotation</string>
 
 </resources>
