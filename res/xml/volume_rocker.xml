@@ -34,6 +34,12 @@
         android:summary="@string/volume_rocker_music_controls_title"
         android:defaultValue="true" />
 
+    <com.fusion.reactor.preference.SystemSettingSwitchPreference
+        android:key="volume_wake_screen"
+        android:title="@string/volume_rocker_wake_summary"
+        android:summary="@string/volume_rocker_wake_title"
+        android:defaultValue="false" />
+
 	<ListPreference
 		android:dialogTitle="@string/volume_key_cursor_control_title"
 		android:entries="@array/volume_key_cursor_control_entries"
