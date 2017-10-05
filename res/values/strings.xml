@@ -204,15 +204,15 @@
     <string name="smart_pulldown_ongoing">no ongoing</string>
 
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
 
     <!-- Lockscreen Bottom Shortcuts -->
     <string name="lockscreen_tuner_title">Lockscreen Bottom Shortcuts</string>
 
     <!-- Double tap-to-sleep -->
-    <string name="double_tap_to_sleep_title">Status bar</string>
-    <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_title">Double tap to sleep on status bar</string>
+    <string name="double_tap_to_sleep_summary">Double tap on status bar to put the device to sleep</string>
 
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
