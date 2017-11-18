@@ -62,6 +62,7 @@ import com.fusion.reactor.tabs.Recents;
 import com.fusion.reactor.tabs.Lockscreen;
 import com.fusion.reactor.tabs.NotificationsPanel;
 import com.fusion.reactor.tabs.Navigation;
+import com.fusion.reactor.tabs.DeveloperSettings;
 
 public class PartsFragment extends SettingsPreferenceFragment {
 
@@ -182,6 +183,7 @@ public class PartsFragment extends SettingsPreferenceFragment {
             frags[3] = new Recents();
 	    frags[4] = new Lockscreen();
             frags[5] = new System();
+            frags[6] = new DeveloperSettings();
         }
 
         @Override
@@ -208,7 +210,8 @@ public class PartsFragment extends SettingsPreferenceFragment {
                     getString(R.string.navigation_category),
                     getString(R.string.recents_category),
                     getString(R.string.lockscreen_category),
-                    getString(R.string.system_category)};
+                    getString(R.string.system_category),
+                    getString(R.string.developer_settings_category)};
         return titleString;
     }
 

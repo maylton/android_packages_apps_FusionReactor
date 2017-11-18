@@ -45,6 +45,7 @@
     <string name="system_category">System</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="navigation_category">Navigation</string>
+    <string name="developer_settings_category">Developer Settings</string>
     <string name="build_tweaks_summary_title">Where The Magic Begins</string>
 
     <!-- App info dialog -->
