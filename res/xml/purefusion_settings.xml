@@ -66,5 +66,13 @@
             android:fragment="com.fusion.reactor.settings.StatusbarSettings" 
             android:layout="@layout/preference_fusion_statusbar" 
             />
+	    
+        <!-- Developer Settings -->
+        <Preference
+            android:key="developer_settings"
+            android:title="@string/developer_settings_title" 
+            android:fragment="com.fusion.reactor.settings.DeveloperSettings"
+            android:layout="@layout/preference_fusion_developer"
+            />
 
 </PreferenceScreen>
