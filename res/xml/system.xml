@@ -40,4 +40,15 @@
         android:icon="@drawable/ic_arrow"
         android:title="@string/developer_settings_title" />
 
+    <!-- Device Extras -->
+    <Preference
+        android:key="device_extras"
+        android:persistent="false"
+        android:title="@string/device_extras_title"
+        android:icon="@drawable/ic_arrow">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="org.omnirom.device"
+            android:targetClass="org.omnirom.device.DeviceSettings"/>
+    </Preference>
+
 </PreferenceScreen>
