@@ -45,6 +45,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
+import com.android.internal.util.fusion.PackageUtils;
 
 public class DeveloperSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
@@ -57,6 +58,15 @@ public class DeveloperSettings extends SettingsPreferenceFragment implements
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
+
+        // check for disabled logcat app
+        Preference logcatApp = findPreference("logcat_app");
+        if (logcatApp != null) {
+            PreferenceCategory systemPrefs = (PreferenceCategory) findPreference("category_system");
+            if (systemPrefs != null && !PackageUtils.isAvailableApp("org.omnirom.logcat", getActivity())) {
+                systemPrefs.removePreference(logcatApp);
+            }
+        }
     }
 
     @Override
