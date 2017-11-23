@@ -696,4 +696,13 @@
     <string name="enable_mtp_dirtyhack_title">MTP instead of Charging</string>
     <string name="enable_mtp_dirtyhack_summary">Enable MTP instead Charging after connect to PC</string>
 
+    <!-- Log fragment -->
+    <string name="log_settings_title">Logcat/Dmesg</string>
+
+    <!-- Matlog LOGCAT Viewer -->
+    <string name="logcat_app_title">MatLog Logcat/Dmesgs</string>
+    <string name="logcat_app_summary">Start app to collect logs</string>
+    
+    <string name="log_category">Logcat</string>
+
 </resources>
