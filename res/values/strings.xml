@@ -56,6 +56,9 @@
     <!-- Lockscreen UI -->
     <string name="lockscreen_ui_title">Lockscreen UI</string>
 
+    <!-- Lockscreen items -->
+    <string name="hide_lockscreen_items_title">Lockscreen items</string>
+
     <!-- Navigation -->
     <string name="navigationbar_settings_title">Navigation bar</string>
 
@@ -109,5 +112,10 @@
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negotiated charger max current and voltage and battery temperature on lockscreen while charging</string>
+
 </resources>
+
 
