@@ -60,6 +60,9 @@
     <!-- Lockscreen items -->
     <string name="hide_lockscreen_items_title">Lockscreen items</string>
 
+    <!-- Lockscreen Enhancements -->
+    <string name="lockscreen_enhancements_title">Lockscreen Enhancements</string>
+
     <!-- Navigation -->
     <string name="navigationbar_settings_title">Navigation bar</string>
 
@@ -133,6 +136,7 @@
 
     <!-- Lockscreen weather -->
     <string name="lock_screen_weather_settings_title">Weather</string>
+    <string name="lock_screen_weather_settings_summary">Show weather info on lockscreen</string>
     <string name="weather_show_weather_title">Show weather</string>
     <string name="weather_show_weather_summary">Enable to show weather information</string>
     <string name="weather_show_location_title">Show location</string>
