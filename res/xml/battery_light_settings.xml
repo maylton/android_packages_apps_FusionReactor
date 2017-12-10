@@ -11,25 +11,32 @@
      limitations under the License.
 -->
 
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+<PreferenceScreen
 
-    <com.fusion.reactor.preference.SystemSettingSwitchPreference
-        android:key="battery_light_enabled"
-        android:title="@string/battery_light_enable"
-        android:defaultValue="true"/>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.fusion.reactor.preference.SystemSettingSwitchPreference
-        android:key="battery_light_allow_on_dnd"
-        android:title="@string/battery_light_allow_on_dnd_title"
-        android:dependency="battery_light_enabled"
-        android:defaultValue="false" />
+    <PreferenceCategory
+        android:key="light_category"
+        android:title="@string/light_category">
 
-    <com.fusion.reactor.preference.SystemSettingSwitchPreference
-        android:key="battery_light_low_blinking"
-        android:title="@string/battery_light_low_blinking_title"
-        android:dependency="battery_light_enabled"
-        android:defaultValue="false" />
+        <com.fusion.reactor.preference.SystemSettingSwitchPreference
+            android:key="battery_light_enabled"
+            android:title="@string/battery_light_enable"
+            android:defaultValue="true"/>
+
+        <com.fusion.reactor.preference.SystemSettingSwitchPreference
+            android:key="battery_light_allow_on_dnd"
+            android:title="@string/battery_light_allow_on_dnd_title"
+            android:dependency="battery_light_enabled"
+            android:defaultValue="false" />
+
+        <com.fusion.reactor.preference.SystemSettingSwitchPreference
+            android:key="battery_light_low_blinking"
+            android:title="@string/battery_light_low_blinking_title"
+            android:dependency="battery_light_enabled"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="battery_light_cat"

@@ -42,8 +42,8 @@ import java.util.List;
 
 import com.android.internal.util.fusion.PureFusionUtils;
 
-public class PowerMenuSettings extends SettingsPreferenceFragment
-                implements Preference.OnPreferenceChangeListener {
+public class PowerMenuSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     private static final String KEY_POWERMENU_TORCH = "powermenu_torch";
 
@@ -66,7 +66,6 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
         mPowermenuTorch.setChecked((Settings.System.getInt(resolver,
                 Settings.System.POWERMENU_TORCH, 0) == 1));
         }
-
     }
 
     @Override

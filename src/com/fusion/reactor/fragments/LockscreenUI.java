@@ -46,7 +46,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class LockscreenUI extends SettingsPreferenceFragment implements
+        OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,7 +57,6 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
-
     }
 
     @Override

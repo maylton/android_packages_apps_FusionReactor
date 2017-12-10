@@ -45,7 +45,6 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -55,14 +54,13 @@ import com.android.settings.dashboard.SummaryLoader;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fusion.reactor.tabs.System;
 import com.fusion.reactor.PagerSlidingTabStrip;
 import com.fusion.reactor.tabs.StatusBar;
+import com.fusion.reactor.tabs.Notifications;
+import com.fusion.reactor.tabs.Buttons;
 import com.fusion.reactor.tabs.Recents;
 import com.fusion.reactor.tabs.Lockscreen;
-import com.fusion.reactor.tabs.NotificationsPanel;
-import com.fusion.reactor.tabs.Navigation;
-import com.fusion.reactor.tabs.DeveloperSettings;
+import com.fusion.reactor.tabs.System;
 
 public class PartsFragment extends SettingsPreferenceFragment {
 
@@ -122,9 +120,6 @@ public class PartsFragment extends SettingsPreferenceFragment {
         switch (item.getItemId()) {
             case MENU_HELP:
                 showDialogInner(MENU_HELP);
-                Toast.makeText(getActivity(),
-                (R.string.reactor_dialog_toast),
-                Toast.LENGTH_LONG).show();
                 return true;
             default:
                 return false;
@@ -178,13 +173,11 @@ public class PartsFragment extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
             frags[0] = new StatusBar();
-            frags[1] = new NotificationsPanel();
-            frags[2] = new Navigation();
+            frags[1] = new Notifications();
+            frags[2] = new Buttons();
             frags[3] = new Recents();
 	        frags[4] = new Lockscreen();
             frags[5] = new System();
-            frags[6] = new DeveloperSettings();
-            frags[7] = new Buttons();
         }
 
         @Override
@@ -207,13 +200,11 @@ public class PartsFragment extends SettingsPreferenceFragment {
         String titleString[];
         titleString = new String[]{
                     getString(R.string.status_bar_category),
-                    getString(R.string.notifications_panel_category),
-                    getString(R.string.navigation_category),
+                    getString(R.string.notifications_category),
+                    getString(R.string.buttons_category),
                     getString(R.string.recents_category),
                     getString(R.string.lockscreen_category),
-                    getString(R.string.system_category),
-                    getString(R.string.developer_settings_category),
-                    getString(R.string.buttons_settings_category)};
+                    getString(R.string.system_category)};
         return titleString;
     }
 

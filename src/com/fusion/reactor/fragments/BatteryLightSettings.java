@@ -44,15 +44,20 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
     private PreferenceCategory mColorCategory;
 
+    private PreferenceCategory mLedsCategory;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.battery_light_settings);
 
-        PreferenceScreen prefSet = getPreferenceScreen();
-        mColorCategory = (PreferenceCategory) findPreference("battery_light_cat");
+        final ContentResolver resolver = getActivity().getContentResolver();
+        final PreferenceScreen prefSet = getPreferenceScreen();
 
+        mColorCategory = (PreferenceCategory) findPreference("battery_light_cat");
         mLowBatteryBlinking = (SystemSettingSwitchPreference)prefSet.findPreference("battery_light_low_blinking");
+        mLedsCategory = (PreferenceCategory) findPreference("light_category");
+
         if (getResources().getBoolean(
                         com.android.internal.R.bool.config_ledCanPulse)) {
             mLowBatteryBlinking.setChecked(Settings.System.getIntForUser(getContentResolver(),
@@ -60,6 +65,11 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             mLowBatteryBlinking.setOnPreferenceChangeListener(this);
         } else {
             prefSet.removePreference(mLowBatteryBlinking);
+        }
+
+        if (!getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            prefSet.removePreference(mLedsCategory);
         }
 
         if (getResources().getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed)) {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusion.reactor;
+package com.fusion.reactor.tabs;
 
 import android.app.ActivityManagerNative;
 import android.content.Context;

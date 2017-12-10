@@ -11,24 +11,28 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen 
+<PreferenceScreen
+
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/notifications_title">
+    android:title="@string/notifications_category"
+    android:layout="@layout/tab"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory
-        android:key="notifications_general_category"
-        android:title="@string/general_category">
-
-<!--    <Preference
+<!--
+    <Preference
             android:key="systemui_tuner_pnc"
             android:title="@string/power_notification_controls_title"
             android:summary="@string/power_notification_controls_summary" >
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.PowerActivity" />
-    </Preference> -->
+    </Preference>
+-->
 
-    </PreferenceCategory>
+    <Preference
+        android:key="battery_charging_light"
+        android:fragment="com.fusion.reactor.BatteryLightSettings"
+        android:icon="@drawable/ic_arrow"
+        android:title="@string/battery_light_settings" />
 
 </PreferenceScreen>

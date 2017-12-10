@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 Pure Fusion OS
+ * Copyright (C) 2017 PureFusionOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -46,17 +46,17 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class HardwareKeys extends SettingsPreferenceFragment implements
+        OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.navbar_settings);
+        addPreferencesFromResource(R.xml.hardware_keys);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
-
     }
 
     @Override

@@ -15,6 +15,7 @@
  */
 
 package com.fusion.reactor;
+
 import android.app.ActivityManagerNative;
 import android.content.Context;
 import android.content.ContentResolver;
@@ -24,7 +25,6 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
-import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
@@ -43,39 +43,25 @@ import android.view.View;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-public class GeneralTweaks extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
-
-    private PreferenceCategory mLedsCategory;
-    private Preference mChargingLeds;
+public class NavigationBar extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.general_tweaks);
+        addPreferencesFromResource(R.xml.navigation_bar);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
-
-        mLedsCategory = (PreferenceCategory) findPreference("light_category");
-        mChargingLeds = (Preference) findPreference("battery_charging_light");
-        if (mChargingLeds != null
-                && !getResources().getBoolean(
-                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
-            mLedsCategory.removePreference(mChargingLeds);
-        }
-          if (mChargingLeds == null) {
-            prefSet.removePreference(mLedsCategory);
-        }
-
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.FUSION;
+        return MetricsEvent.FUSION;
     }
 
     @Override

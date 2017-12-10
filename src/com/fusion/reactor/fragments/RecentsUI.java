@@ -73,7 +73,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
 
-public class RecentsUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener, DialogInterface.OnDismissListener {
+public class RecentsUI extends SettingsPreferenceFragment implements
+        OnPreferenceChangeListener, DialogInterface.OnDismissListener {
 
     private final static String[] sSupportedActions = new String[] {
         "org.adw.launcher.THEMES",

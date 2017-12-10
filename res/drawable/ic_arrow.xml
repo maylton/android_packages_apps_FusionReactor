@@ -1,6 +1,6 @@
 <!--
-    Copyright (C) 2014 The Android Open Source Project
-    
+    Copyright (C) 2017 PureFusionOS
+
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
@@ -12,12 +12,13 @@
     limitations under the License.
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:height="24dp"
     android:width="24dp"
+    android:height="24dp"
     android:viewportWidth="24"
-    android:viewportHeight="24"
-    android:tint="?android:attr/colorControlNormal">
-    <path 
-          android:fillColor="@android:color/black" 
-          android:pathData="M2,2H16V16H2V2M22,8V22H8V18H18V8H22M4,4V14H14V4H4Z" />
+    android:viewportHeight="24">
+    <path
+        android:fillColor="?android:attr/colorControlNormal"
+        android:pathData="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" />
+    <path
+        android:pathData="M0-.25h24v24H0z" />
 </vector>

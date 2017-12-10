@@ -49,7 +49,8 @@ import com.android.settings.Utils;
 import com.fusion.reactor.preference.CustomSeekBarPreference;
 import com.fusion.reactor.preference.SystemSettingSwitchPreference;
 
-public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class Traffic extends SettingsPreferenceFragment implements
+        OnPreferenceChangeListener {
 
 
     private CustomSeekBarPreference mThreshold;

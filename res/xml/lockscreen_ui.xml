@@ -11,34 +11,28 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen 
+<PreferenceScreen
+
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/lockscreen_ui_title">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
 
+    <Preference
+        android:title="@string/lockscreen_tuner_title" >
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
+    </Preference>
 
-    <PreferenceCategory
-            android:key="hide_lockscreen_items_category"
-            android:title="@string/hide_lockscreen_items_title" >
+    <com.fusion.reactor.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
 
-        <com.fusion.reactor.preference.SystemSettingSwitchPreference
-               android:key="lockscreen_battery_info"
-               android:title="@string/lockscreen_battery_info_title"
-               android:summary="@string/lockscreen_battery_info_summary"
-               android:defaultValue="true" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-            android:key="lockscreen_enhancements_category"
-            android:title="@string/lockscreen_enhancements_title" >
-
-         <Preference
-               android:key="lockscreen_weather"
-               android:title="@string/lock_screen_weather_settings_title"
-               android:summary="@string/lock_screen_weather_settings_summary"
-               android:fragment="com.fusion.reactor.LockScreenWeatherSettings" />
-
-    </PreferenceCategory>
+    <Preference
+        android:key="lockscreen_weather"
+        android:title="@string/lock_screen_weather_settings_title"
+        android:summary="@string/lock_screen_weather_settings_summary"
+        android:fragment="com.fusion.reactor.LockScreenWeatherSettings" />
 
 </PreferenceScreen>

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 Pure Fusion OS
+ * Copyright (C) 2017 PureFusionOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusion.reactor.tabs;
+package com.fusion.reactor;
 
 import android.app.ActivityManagerNative;
 import android.content.Context;
@@ -45,26 +45,17 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
-
-public class Notifications extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
-
-    private Preference mChargingLeds;
+public class SystemGeneralSettings extends SettingsPreferenceFragment implements
+        OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.notifications);
+        addPreferencesFromResource(R.xml.system_general_settings);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
-
-        mChargingLeds = (Preference) findPreference("battery_charging_light");
-
-        if (mChargingLeds == null) {
-            prefSet.removePreference(mChargingLeds);
-        }
-
     }
 
     @Override

@@ -16,16 +16,16 @@
 -->
 
 <PreferenceScreen
+
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/recents_category"
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <Preference
-            android:key="recents_ui"
-            android:fragment="com.fusion.reactor.RecentsUI"
-            android:icon="@drawable/ic_recents_ui"
-            android:title="@string/recents_ui_title" />
-
+     <Preference
+        android:key="recents_ui"
+        android:fragment="com.fusion.reactor.RecentsUI"
+        android:icon="@drawable/ic_arrow"
+        android:title="@string/recents_ui_title" />
 
 </PreferenceScreen>
