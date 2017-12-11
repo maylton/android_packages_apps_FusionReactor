@@ -153,6 +153,7 @@
     <string name="powermenu_soundpanel">Sound Panel</string>
     <string name="powermenu_users">Users</string>
     <string name="powermenu_torch">Flashlight</string>
+    <string name="powermenu_emergency_affordance">Emergency</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_type">Select net activity type</string>

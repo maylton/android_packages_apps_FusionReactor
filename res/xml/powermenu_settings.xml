@@ -71,4 +71,9 @@
         android:title="@string/powermenu_users"
         android:defaultValue="false" />
 
+     <com.fusion.reactor.preference.SystemSettingSwitchPreference
+        android:key="powermenu_emergency_affordance"
+        android:title="@string/powermenu_emergency_affordance"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
