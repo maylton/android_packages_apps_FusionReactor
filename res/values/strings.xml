@@ -18,118 +18,118 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Reactor title -->
-    <string name="reactor_title">Fusion Reactor</string>
-    <string name="build_tweaks_summary_title">Where The Magic Begins</string>
+    <string name="reactor_title">Reator de Fusão</string>
+    <string name="build_tweaks_summary_title">Onde a Mágica Começa</string>
 
     <!-- Status bar -->
-    <string name="status_bar_category">Statusbar</string>
-    <string name="status_bar_items_title">Statusbar items</string>
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="status_bar_icons_title">Statusbar Icons</string>
-    <string name="notification_panel_title">Notification panel</string>
-    <string name="quick_settings_title">Quick settings</string>
-    <string name="status_bar_gestures_title">Statusbar Gestures</string>
+    <string name="status_bar_category">Barra de Status</string>
+    <string name="status_bar_items_title">Items da Barra de Status</string>
+    <string name="traffic_title">Idicadores de tráfego</string>
+    <string name="status_bar_icons_title">Ícones da Barra de Status</string>
+    <string name="notification_panel_title">Painel de Notificações</string>
+    <string name="quick_settings_title">Configurações Rápidas</string>
+    <string name="status_bar_gestures_title">Gestos na Barra de Status</string>
 
     <!-- Notifications -->
-    <string name="notifications_category">Notifications</string>
-    <string name="battery_light_settings">Battery charging light</string>
+    <string name="notifications_category">Notificações</string>
+    <string name="battery_light_settings">Luz da Bateria em Carregamento</string>
 
     <!-- Buttons -->
-    <string name="buttons_category">Buttons</string>
-    <string name="navigation_bar_title">Navigation Bar</string>
-    <string name="hardware_keys_title">Hardware Keys</string>
-    <string name="power_menu_title">Power Button</string>
-    <string name="volume_rocker_title">Volume Rocker</string>
+    <string name="buttons_category">Botões</string>
+    <string name="navigation_bar_title">Barra de Navegação</string>
+    <string name="hardware_keys_title">Botões do Hardware</string>
+    <string name="power_menu_title">Botão de Energia</string>
+    <string name="volume_rocker_title">Botões de Volume</string>
 
     <!-- Navigation -->
-    <string name="navigationbar_settings_title">Navigation bar</string>
+    <string name="navigationbar_settings_title">Barra de Navegação</string>
 
     <!-- Recents -->
-    <string name="recents_category">Recents</string>
-    <string name="recents_ui_title">Recents UI</string>
+    <string name="recents_category">Recentes</string>
+    <string name="recents_ui_title">Interface dos Recentes</string>
 
     <!-- Lockscreen -->
-    <string name="lockscreen_category">Lockscreen</string>
-    <string name="lockscreen_ui_title">Lockscreen UI</string>
-    <string name="lockscreen_gestures_title">Lockscreen Gestures</string>
+    <string name="lockscreen_category">Tela de Bloqueio</string>
+    <string name="lockscreen_ui_title">Interface da Tela de Bloqueio</string>
+    <string name="lockscreen_gestures_title">Gestos da Tela de Bloqueio</string>
 
     <!-- System -->
-    <string name="system_category">System</string>
-    <string name="app_ops_title">App Ops</string>
-    <string name="developer_settings_title">Developer Settings</string>
+    <string name="system_category">Sistema</string>
+    <string name="app_ops_title">Opções de APPs</string>
+    <string name="developer_settings_title">Configurações de Desenvolvedor</string>
 
     <!-- App info dialog -->
-    <string name="reactor_dialog_title">Help us help you!</string>
-    <string name="reactor_dialog_message">If you find a bug with any of these settings, please submit a bug report in our forums. https://forum.purefusionos.com. Please first submit the report to your device specific forum. The maintainer will decide if it needs to be reported upstream. All bug reports without a proper logcat will be ignored!</string>
+    <string name="reactor_dialog_title">Nos ajude a ajude a você!</string>
+    <string name="reactor_dialog_message">Caso você encontre um bug em alguma dessas configurações, por favor reporte o bug em nossos fóruns. https://forum.purefusionos.com. Por favor, reporte primeiro para o fórum específico do seu aparelho. O mantenedor irá decidir se o problema precisa ser informado aos demais. Qualquer bug reportado sem um logcat apropriado será ignorado!</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Seletor de cor</string>
+    <string name="press_color_to_apply">Pressione uma cor abaixo para aplicar</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">Aplicar</string>
+    <string name="color_default">Padrão</string>
 
     <!-- General app strings -->
-    <string name="add">Add</string>
-    <string name="advanced">Advanced</string>
-    <string name="cancel">Cancel</string>
-    <string name="choose_app">Choose app</string>
-    <string name="general_category">General</string>
-    <string name="gestures_category">Gestures</string>
-    <string name="security_category">Security</string>
-    <string name="aosp_recents_category">AOSP recents</string>
+    <string name="add">Adicionar</string>
+    <string name="advanced">Avançado</string>
+    <string name="cancel">Cancelar</string>
+    <string name="choose_app">Escolher app</string>
+    <string name="general_category">Geral</string>
+    <string name="gestures_category">Gestos</string>
+    <string name="security_category">Segurança</string>
+    <string name="aosp_recents_category">Recentes estilo AOSP</string>
     <string name="hardware_category">Hardware</string>
-    <string name="light_category">Lights</string>
+    <string name="light_category">Luzes</string>
     <string name="dlg_ok">OK</string>
-    <string name="attention">Attention</string>
-    <string name="loading">Loading\u2026</string>
-    <string name="reset">Reset</string>
-    <string name="reset_colors">Reset colors</string>
+    <string name="attention">Atenção</string>
+    <string name="loading">Carregando\u2026</string>
+    <string name="reset">Resetar</string>
+    <string name="reset_colors">Resetar cores</string>
     <string name="reset_android">Android</string>
-    <string name="text_title">Text</string>
-    <string name="icon_title">Icon</string>
-    <string name="color_title">Color</string>
-    <string name="colors_title">Colors</string>
-    <string name="general_settings_title">General Settings</string>
+    <string name="text_title">Texto</string>
+    <string name="icon_title">Ícone</string>
+    <string name="color_title">Cor</string>
+    <string name="colors_title">Cores</string>
+    <string name="general_settings_title">Configurações Gerais</string>
     
     <!-- MTP Dirty Hack -->
-    <string name="enable_mtp_dirtyhack_title">MTP instead of Charging</string>
-    <string name="enable_mtp_dirtyhack_summary">Enable MTP by default for USB connection</string>
+    <string name="enable_mtp_dirtyhack_title">MTP ao invés de carregar</string>
+    <string name="enable_mtp_dirtyhack_summary">Habilitar MTP por padrão para conexão USB</string>
 
     <!-- Recents panel settings -->
-    <string name="show_clear_all_recents_button_title">Clear all button</string>
-    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-    <string name="recents_clear_all_location_title">Clear all location</string>
-    <string name="recents_clear_all_location_top_right">Top right</string>
-    <string name="recents_clear_all_location_top_left">Top left</string>
-    <string name="recents_clear_all_location_top_center">Top center</string>
-    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-    <string name="recents_show_membar_title">Memory bar</string>
-    <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
+    <string name="show_clear_all_recents_button_title">Botão Limpar tudo</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar botão Limpar tudo</string>
+    <string name="recents_clear_all_location_title">Localização do Limpar tudo</string>
+    <string name="recents_clear_all_location_top_right">Em cima à direita</string>
+    <string name="recents_clear_all_location_top_left">Em cima à esquerda</string>
+    <string name="recents_clear_all_location_top_center">Em cima centralizado</string>
+    <string name="recents_clear_all_location_bottom_right">Em baixo à direita</string>
+    <string name="recents_clear_all_location_bottom_left">Em baixo à esquerda</string>
+    <string name="recents_clear_all_location_bottom_center">Em baixo centralizado</string>
+    <string name="recents_show_membar_title">Barra da memória RAM</string>
+    <string name="recents_show_membar_summary">Exibe a memória RAM diponível no aparelho</string>
 
-    <string name="recents_icon_pack_title">Icon Pack</string>
-    <string name="recents_icon_pack_summary">Apply a custom icon pack for recents panel</string>
-    <string name="no_iconpacks_summary">No icon packs installed</string>
-    <string name="dialog_pick_iconpack_title">Pick icon pack</string>
-    <string name="default_iconpack_title">Default icons</string>
+    <string name="recents_icon_pack_title">Pacote de Ícones</string>
+    <string name="recents_icon_pack_summary">Aplica um pacote de ícone personalizado ao painel de recentes</string>
+    <string name="no_iconpacks_summary">Sem pacotes de ícones instalados</string>
+    <string name="dialog_pick_iconpack_title">Selecionar um pacote de ícones</string>
+    <string name="default_iconpack_title">Ícones padrões</string>
 
     <!-- Battery light -->
-    <string name="battery_light_enable">Battery light</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_enable">Luz da bateria</string>
+    <string name="battery_light_allow_on_dnd_title">Luz da bateria no modo Não Perturbe</string>
+    <string name="battery_light_low_blinking_title">Piscar luz quando a bateria estiver fraca</string>
+    <string name="battery_light_cat">Cor da luz da bateria enquanto carrega</string>
+    <string name="battery_light_low_color">Bateria fraca</string>
+    <string name="battery_light_medium_color">Bateria média</string>
+    <string name="battery_light_full_color">Bateria quase cheia</string>
+    <string name="battery_light_reallyfull_color">Bateria (100) cheia</string>
 
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_title">Informação de carregamento na tela de bloqueio</string>
     <string name="lockscreen_battery_info_summary">Display negotiated charger max current and voltage and battery temperature on lockscreen while charging</string>
 
     <!-- Lockscreen weather -->
