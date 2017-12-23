@@ -21,12 +21,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <com.fusion.reactor.preference.SystemSettingSwitchPreference
-        android:key="qs_show_brightness_icon"
-        android:title="@string/brightness_icon_title"
-        android:summary="@string/brightness_icon_summary"
-        android:defaultValue="false"/>
-
-    <com.fusion.reactor.preference.SystemSettingSwitchPreference
         android:key="roaming_indicator_icon"
         android:title="@string/roaming_indicator_icon_title"
         android:summary="@string/roaming_indicator_icon_summary"
