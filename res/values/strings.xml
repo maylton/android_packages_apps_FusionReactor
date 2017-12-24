@@ -51,7 +51,7 @@
     <!-- Lockscreen -->
     <string name="lockscreen_category">Tela de Bloqueio</string>
     <string name="lockscreen_ui_title">Interface da Tela de Bloqueio</string>
-    <string name="lockscreen_gestures_title">Gestos da Tela de Bloqueio</string>
+    <string name="lockscreen_gestures_title">Gestos na Tela de Bloqueio</string>
 
     <!-- System -->
     <string name="system_category">Sistema</string>
@@ -59,8 +59,8 @@
     <string name="developer_settings_title">Configurações de Desenvolvedor</string>
 
     <!-- App info dialog -->
-    <string name="reactor_dialog_title">Nos ajude a ajude a você!</string>
-    <string name="reactor_dialog_message">Caso você encontre um bug em alguma dessas configurações, por favor reporte o bug em nossos fóruns. https://forum.purefusionos.com. Por favor, reporte primeiro para o fórum específico do seu aparelho. O mantenedor irá decidir se o problema precisa ser informado aos demais. Qualquer bug reportado sem um logcat apropriado será ignorado!</string>
+    <string name="reactor_dialog_title">Nos ajude a ajudar a você!</string>
+    <string name="reactor_dialog_message">Caso você encontre um bug em alguma dessas configurações, por favor reporte-o em nossos fóruns. https://forum.purefusionos.com. Por favor, reporte primeiro para o fórum específico do seu aparelho. O mantenedor irá decidir se o problema precisa ser informado aos demais. Qualquer bug reportado sem um logcat apropriado será ignorado!</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Seletor de cor</string>
@@ -130,206 +130,206 @@
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informação de carregamento na tela de bloqueio</string>
-    <string name="lockscreen_battery_info_summary">Display negotiated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Exibir o limite máximo de carga do carregador, voltagem e temperatura da bateria enquanto carrega na tela de bloqueio</string>
 
     <!-- Lockscreen weather -->
-    <string name="lock_screen_weather_settings_title">Weather</string>
-    <string name="lock_screen_weather_settings_summary">Show weather info on lockscreen</string>
-    <string name="weather_show_weather_title">Show weather</string>
-    <string name="weather_show_weather_summary">Enable to show weather information</string>
-    <string name="weather_show_location_title">Show location</string>
-    <string name="weather_show_location_summary">Enable to show the location</string>
-    <string name="weather_config_title">Service settings</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="lock_screen_weather_settings_title">Clima</string>
+    <string name="lock_screen_weather_settings_summary">Exibir informação climática na tela de bloqueio</string>
+    <string name="weather_show_weather_title">Exibir clima</string>
+    <string name="weather_show_weather_summary">Habilitar exibição de informação climática</string>
+    <string name="weather_show_location_title">Exibir localização</string>
+    <string name="weather_show_location_summary">Habilitar exibição da localização</string>
+    <string name="weather_config_title">Configurações de serviço</string>
+    <string name="weather_icon_pack_title">Pacote de ícones do clima</string>
 
     <!-- Power Menu -->
-    <string name="powermenu_screenshot">Screenshot</string>
-    <string name="powermenu_screenrecord">Screenrecord</string>
-    <string name="powermenu_power">Power</string>
-    <string name="powermenu_restart">Restart</string>
-    <string name="powermenu_restart_recovery">Advanced restart</string>
-    <string name="powermenu_airplane">Airplane</string>
-    <string name="powermenu_settings">Settings</string>
-    <string name="powermenu_lockdown">Lock Down</string>
-    <string name="powermenu_soundpanel">Sound Panel</string>
-    <string name="powermenu_users">Users</string>
-    <string name="powermenu_torch">Flashlight</string>
-    <string name="powermenu_emergency_affordance">Emergency</string>
+    <string name="powermenu_screenshot">Captura de tela</string>
+    <string name="powermenu_screenrecord">Gravação de tela</string>
+    <string name="powermenu_power">Desligar</string>
+    <string name="powermenu_restart">Reiniciar</string>
+    <string name="powermenu_restart_recovery">Reinício Avançado</string>
+    <string name="powermenu_airplane">Modo Avião</string>
+    <string name="powermenu_settings">Configurações</string>
+    <string name="powermenu_lockdown">Bloquear</string>
+    <string name="powermenu_soundpanel">Painel de Som</string>
+    <string name="powermenu_users">Usuários</string>
+    <string name="powermenu_torch">Lanterna</string>
+    <string name="powermenu_emergency_affordance">Emergência</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_type">Selecionar o tipo de tráfego a exibir</string>
+    <string name="show_network_traffic_up">Envio</string>
+    <string name="show_network_traffic_down">Recebimento</string>
+    <string name="show_network_traffic_all">Envio e Recebimento</string>
+    <string name="network_traffic_state_title">Exibir atividade de rede na barra de status</string>
+    <string name="network_traffic_autohide_threshold_title">Esconder atividade de rede abaixo de (KB/s)</string>
 
     <!-- Power notification controls -->
-    <string name="power_notification_controls_title">Power notification controls</string>
-    <string name="power_notification_controls_summary">Select importance level for notifications</string>
+    <string name="power_notification_controls_title">Ativar controle de notificações</string>
+    <string name="power_notification_controls_summary">Selecione o nível de importância das notificações</string>
 
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Power menu when locked</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
+    <string name="lockscreen_power_menu_disabled_title">Menu de energia na tela de bloqueio</string>
+    <string name="lockscreen_power_menu_disabled_summary">Desabilitar o menu de energia na tela de bloqueio</string>
 
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">Ícone 4G</string>
+    <string name="show_fourg_icon_summary">Exibir o ícone 4G na conexão ao invés de LTE</string>
 
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">Indicador de roaming</string>
+    <string name="roaming_indicator_icon_summary">Exibir indicador de roaming no ícone de sinal quando estiver </string>
 
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_title">Brightness slider</string>
-    <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_brightness_slider_title">Controle de brilho</string>
+    <string name="qs_brightness_slider_summary">Mostrar o controle de brilho no painel rápido</string>
 
-    <string name="toast_icon_title">App\'s icon in toast</string>
-    <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+    <string name="toast_icon_title">Ícone do app em notificações toast</string>
+    <string name="toast_icon_summary">Exibir o ícone do app corespondente à notificação toast</string>
 
     <!-- Quick pull down-->
-    <string name="quick_pulldown_title">Quick pulldown</string>
-    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
-    <string name="quick_pulldown_off">Off</string>
-    <string name="quick_pulldown_left">Left</string>
-    <string name="quick_pulldown_right">Right</string>
-    <string name="quick_pulldown_always">Always</string>
+    <string name="quick_pulldown_title">Puxar rápido para baixo</string>
+    <string name="quick_pulldown_summary">Puxar para baixo rápido a borda %1$s da barra de status para exibir as configurações rápidas</string>
+    <string name="quick_pulldown_summary_always">Sempre mostrar as configurações rápidas ao puxar para baixo rápido</string>
+    <string name="quick_pulldown_off">Desligado</string>
+    <string name="quick_pulldown_left">Esquerda</string>
+    <string name="quick_pulldown_right">Direita</string>
+    <string name="quick_pulldown_always">Sempre</string>
 
     <!-- Smart pulldown-->
-    <string name="smart_pulldown_title">Smart pulldown</string>
-    <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-    <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-    <string name="smart_pulldown_off">Off</string>
-    <string name="smart_pulldown_none">no notifications</string>
-    <string name="smart_pulldown_dismissable">no dismissable</string>
-    <string name="smart_pulldown_ongoing">no ongoing</string>
+    <string name="smart_pulldown_title">Puxar para baixo inteligente</string>
+    <string name="smart_pulldown_summary">Abrir as configurações rápidas quando houver %1$s notificações</string>
+    <string name="smart_pulldown_none_summary">Abrir as configurações rápidas quando não houver nenhuma notificação</string>
+    <string name="smart_pulldown_off">Desligado</string>
+    <string name="smart_pulldown_none">sem notificações</string>
+    <string name="smart_pulldown_dismissable">indispensáveis</string>
+    <string name="smart_pulldown_ongoing">sem estar em progresso</string>
 
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="double_tap_to_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Toque duplo para dormir na tela de bloqueio</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Toque duplo na área do terceiro atalho superior ou inferior da tela de bloqueio para por o dispositivo para dormir</string>
 
     <!-- Lockscreen Bottom Shortcuts -->
-    <string name="lockscreen_tuner_title">Lockscreen Bottom Shortcuts</string>
+    <string name="lockscreen_tuner_title">Atalhos inferiores da tela de bloqueio</string>
 
     <!-- Double tap-to-sleep -->
-    <string name="double_tap_to_sleep_title">Double tap to sleep on status bar</string>
-    <string name="double_tap_to_sleep_summary">Double tap on status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_title">Toque duplo na barra de status para dormir</string>
+    <string name="double_tap_to_sleep_summary">Toque duplo na barra de status coloca o dispositivo para dormir</string>
 
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Controle de brilho</string>
+    <string name="status_bar_toggle_brightness_summary">Ajustar o brilho ao deslizar o dedo na barra de status</string>
 
     <!-- Media art -->
-    <string name="media_art_title">Media cover art</string>
-    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <string name="media_art_title">Arte de álbum na tela de bloqueio</string>
+    <string name="media_art_summary">Exibe a arte do álbum durante reprodução na tela de bloqueio</string>
 
     <!-- Volume button orientation based on current rotation -->
-    <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
-    <string name="swap_volume_buttons_summary">Adjust the rocker orientation based on current rotation</string>
+    <string name="swap_volume_buttons_title">Trocar a orientação dos botões de volume</string>
+    <string name="swap_volume_buttons_summary">Ajustar a orientação dos botões de volume baseado na rotação do aparelho</string>
 
     <!-- Volume key controls media stream -->
-    <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
-    <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+    <string name="volume_keys_control_media_stream_title">Botões de volume controlam o volume de mídia</string>
+    <string name="volume_keys_control_media_stream_summary">Forçar os botões de volume a controlar o fluxo de mídia</string>
 
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">Controle de playback</string>
+    <string name="volume_rocker_music_controls_summary">Quando a tela estiver desligada, pressionar continuamente os botões de volume fará o dispositivo procurar faixas de música</string>
 
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
-    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
-    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <string name="volume_key_cursor_control_title">Botões de volume controlam o cursor</string>
+    <string name="volume_key_cursor_control_off">Desabilitado</string>
+    <string name="volume_key_cursor_control_on">Volume mais/menos movimenta o cursor para esquerda/direita</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume mais/menos movimenta o cursor para direita/esquerda</string>
 
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Despertar com o botão de volume</string>
+    <string name="volume_rocker_wake_summary">Pressionar os botões de volume acordará seu dispositivo</string>
 
     <!-- The volume key answer -->
-    <string name="volume_answer_call_title">Volume keys answer</string>
-    <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
+    <string name="volume_answer_call_title">Atender com os botões de volume</string>
+    <string name="volume_answer_call_summary">As ligações serão atendidas ao pressionar os botões de volume</string>
 
     <!-- Headset ringtone audio focus -->
-    <string name="ringtone_focus_mode_title">Where to play ringtones from</string>
-    <string name="ringtone_focus_mode_dynamic">From headset if connected and playing music</string>
-    <string name="ringtone_focus_mode_stock">"From speakerphone (aosp default)"</string>
+    <string name="ringtone_focus_mode_title">De onde tocar os ringtones</string>
+    <string name="ringtone_focus_mode_dynamic">A partir do fone de ouvido se conectado e tocando música</string>
+    <string name="ringtone_focus_mode_stock">"A partir do falante do aparelho (padrão AOSP)"</string>
 
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads up</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="summary_heads_up_enabled">Notificações pop-up estão habilitadas</string>
+    <string name="summary_heads_up_disabled">Notificações pop-up estão desabilitadas</string>
+    <string name="add_heads_up_package">Adicionar APP</string>
+    <string name="add_heads_up_stoplist_summary">Desabilitar notificações heads up nestes aplicativos</string>
+    <string name="add_heads_up_blacklist_summary">Desabilitar notificações heads up destes aplicativos</string>
+    <string name="heads_up_stoplist_title">Lista de parada</string>
+    <string name="heads_up_blacklist_title">Lista negra</string>
+    <string name="profile_choose_app">Selecionar APP</string>
+    <string name="dialog_delete_title">Deletar</string>
+    <string name="dialog_delete_message">Remover o item selecionado?</string>
 
     <!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_title">Tempo esgotado</string>
+    <string name="heads_up_time_out_summary">A notificação será exibida por <xliff:g id="number">%d</xliff:g> secundos</string>
+    <string name="heads_up_time_out_2sec">2 segundos</string>
+    <string name="heads_up_time_out_4sec">4 segundos</string>
+    <string name="heads_up_time_out_5sec">5 segundos</string>
+    <string name="heads_up_time_out_6sec">6 segundos</string>
+    <string name="heads_up_time_out_8sec">8 segundos</string>
+    <string name="heads_up_time_out_10sec">10 segundos</string>
 
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_title">Tempo de descanso</string>
+    <string name="heads_up_snooze_summary_one_minute">Limpar a notifcação fará com que as notificações do APP sejam desabilitadas por 1 minuto</string>
+    <string name="heads_up_snooze_summary">Limpar a notifcação fará com que as notificações do APP sejam desabilitadas por <xliff:g id="number">%d</xliff:g> minutos</string>
+    <string name="heads_up_snooze_disabled_summary">Tempo de descanso desabilitado</string>
+    <string name="heads_up_snooze_1min">1 minuto</string>
+    <string name="heads_up_snooze_5min">5 minutos</string>
+    <string name="heads_up_snooze_10min">10 minutos</string>
+    <string name="heads_up_snooze_15min">15 minutos</string>
+    <string name="heads_up_snooze_20min">20 minutos</string>
 
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Opções de vibração durante chamadas</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao atender</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar durante chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
 
     <!-- Statusbar ticker -->
-    <string name="ticker_screen_title">Ticker</string>
-    <string name="ticker_mode_title">Statusbar notification ticker</string>
-    <string name="ticker_disabled">Disabled</string>
-    <string name="ticker_enabled">Notification ticker</string>
-    <string name="ticker_media_enabled">Notification and music ticker</string>
+    <string name="ticker_screen_title">Tíquetes</string>
+    <string name="ticker_mode_title">Tíquetes de notficiações na barra de status</string>
+    <string name="ticker_disabled">Desabilitados</string>
+    <string name="ticker_enabled">Habilitados</string>
+    <string name="ticker_media_enabled">Tíquete de players de música e notificações</string>
 
     <!-- DUI -->
     <string name="navbar_interface_title">Interface</string>
-    <string name="navbar_size">Bar size</string>
-    <string name="navbar_mode">Navigation mode</string>
-    <string name="navbar_mode_summary">Select which navigation mode to use on your device</string>
-    <string name="navbar_visibility">Allow navigation bar</string>
-    <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
-    <string name="navbar_general_title">Advanced</string>
-    <string name="navigation_bar_left_title">Left-handed mode</string>
-    <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
-    <string name="smartbar_interface">SmartBar</string>
-    <string name="icon_pack_picker_dialog_title">Icon packs</string>
-    <string name="image_exceeds_max_allowed_size">Image must not exceed 512x512</string>
-    <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="profile_applist_title">Applications</string>
-    <string name="default_string">Stock</string>
-    <string name="default_settings">Stock settings</string>
-    <string name="default_settings_summary">Stock AOSP navigation bar</string>
+    <string name="navbar_size">Tamanho da barra</string>
+    <string name="navbar_mode">Modo de navegação</string>
+    <string name="navbar_mode_summary">Selecione qual modo de navegação deverá ser usado no seu dispositivo</string>
+    <string name="navbar_visibility">Habilitar barra de navegação</string>
+    <string name="navigationbar_settings_summary">Customizar o estilo e comportamento da barra de navegação</string>
+    <string name="navbar_general_title">Avançado</string>
+    <string name="navigation_bar_left_title">Modo canhoto</string>
+    <string name="navigation_bar_left_summary">Exibir a barra de navegação no lado esquerdo do aparelho em modo paisagem</string>
+    <string name="smartbar_interface">Barra inteligente</string>
+    <string name="icon_pack_picker_dialog_title">Pacote de ícones</string>
+    <string name="image_exceeds_max_allowed_size">A imagem não pode exceder 512x512</string>
+    <string name="invalid_icon_from_uri">Incapaz de carregar a imagem deste diretório</string>
+    <string name="picker_activities">Atividades</string>
+    <string name="select_custom_app_title">Selecionar um APP personalizado</string>
+    <string name="select_custom_activity_title">Selecionar uma atividade personalizada</string>
+    <string name="profile_applist_title">Aplicativos</string>
+    <string name="default_string">Padrão</string>
+    <string name="default_settings">Configurações padrão</string>
+    <string name="default_settings_summary">Barra de navegação AOSP padrão</string>
 
     <!-- Actions dialog and default task values set in ActionPreference xml-->
-    <string name="choose_action_title">Choose action</string>
-    <string name="action_entry_default_action">Default settings</string>
-    <string name="action_entry_select_app">Select application</string>
-    <string name="action_entry_custom_action">Select custom action</string>
+    <string name="choose_action_title">Escolher ação</string>
+    <string name="action_entry_default_action">Configurações padrão</string>
+    <string name="action_entry_select_app">Selecionar aplicativo</string>
+    <string name="action_entry_custom_action">Selecionar ação personalizada</string>
     <string name="action_value_default_action" translatable="false">default</string>
     <string name="action_value_select_app" translatable="false">app</string>
     <string name="action_value_custom_action" translatable="false">custom</string>
@@ -341,33 +341,34 @@
     <string name="action_value_menu" translatable="false">task_menu</string>
 
     <!-- Fling -->
-    <string name="fling_settings">Fling settings</string>
-    <string name="fling_settings_summary">A very unique and fully-customizable gesture-based navigation bar</string>
+    <string name="fling_settings">Configurações do Fling</string>
+    <string name="fling_settings_summary">Uma barra de navegação totalmente customizável e única baseada em gestos</string>
     <string name="fling_interface">Fling</string>
-    <string name="fling_enable_title">Enable Fling</string>
-    <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first.\n\nAlso, setting a double tap action will delay single tap a bit.</string>
-    <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar.</string>
-    <string name="fling_def_summary">No action set</string>
-    <string name="fling_swipe_actions">Swipe gestures</string>
-    <string name="fling_tap_actions">Tap gestures</string>
-    <string name="fling_short_swipe_right">Right short swipe</string>
-    <string name="fling_short_swipe_left">Left short swipe</string>
-    <string name="fling_long_swipe_right">Right long swipe</string>
-    <string name="fling_long_swipe_left">Left long swipe</string>
-    <string name="fling_right_up_swipe">Right side swipe up</string>
-    <string name="fling_left_up_swipe">Left side swipe up</string>
-    <string name="fling_single_tap">Single tap right</string>
-    <string name="fling_double_tap">Double tap right</string>
-    <string name="fling_long_press">Long press right</string>
-    <string name="fling_single_left_tap">Single tap left</string>
-    <string name="fling_double_left_tap">Double tap left</string>
-    <string name="fling_long_left_press">Long press left</string>
-    <string name="long_swipe_portrait_title">Portrait</string>
-    <string name="long_swipe_landscape_title">Landscape</string>
-    <string name="portrait_right_swipe_title">Portrait right swipe</string>
-    <string name="portrait_left_swipe_title">Portrait left swipe</string>
-    <string name="landscape_right_swipe_title">Landscape right swipe</string>
-    <string name="landscape_left_swipe_title">Landscape left swipe</string>
+    <string name="fling_enable_title">Habilitar Fling</string>
+    <string name="fling_back_home_policy">Voltar e Início devem estar habilitados o tempo todo. Para mudar a atribuição do botão Voltar e Início, configure a a
+      atribuição desejada primeiro.\n\nAinda, configurar uma ação de dois toques atrasará ações de toque único um pouco.</string>
+    <string name="fling_split_bar_policy">Quando apenas uma ação à direita ou à esquerda é atribuída, a ação implica em toda a barra.</string>
+    <string name="fling_def_summary">Sem ação configurada</string>
+    <string name="fling_swipe_actions">Gestos de deslize</string>
+    <string name="fling_tap_actions">Gestos de toque</string>
+    <string name="fling_short_swipe_right">Deslize curto para a direita</string>
+    <string name="fling_short_swipe_left">Deslize curto para a esquerda</string>
+    <string name="fling_long_swipe_right">Deslize longo para a direita</string>
+    <string name="fling_long_swipe_left">Deslize longo para a esquerda</string>
+    <string name="fling_right_up_swipe">Deslize para cima no lado direito</string>
+    <string name="fling_left_up_swipe">Deslize para cima no lado esquerdo</string>
+    <string name="fling_single_tap">Toque único à direita</string>
+    <string name="fling_double_tap">Toque duplo à direita</string>
+    <string name="fling_long_press">Toque longo à direita</string>
+    <string name="fling_single_left_tap">Toque único à esquerda</string>
+    <string name="fling_double_left_tap">Toque duplo à direita</string>
+    <string name="fling_long_left_press">Toque longo à esquerda</string>
+    <string name="long_swipe_portrait_title">Retrato</string>
+    <string name="long_swipe_landscape_title">Paisagem</string>
+    <string name="portrait_right_swipe_title">Deslize para direita em modo retrato</string>
+    <string name="portrait_left_swipe_title">Deslize para a esquerda em modo retrato</string>
+    <string name="landscape_right_swipe_title">Delize para a direita em modo paisagem</string>
+    <string name="landscape_left_swipe_title">Deslize para a esquerda em modo paisagem</string>
     <string name="vertical_up_swipe_title">Vertical up swipe</string>
     <string name="vertical_down_swipe_title">Vertical down swipe</string>
     <string name="up_swipe_title">Up swipe</string>
